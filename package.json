@@ -1,0 +1,31 @@
+{
+  "name": "brew-install",
+  "version": "0.1.0",
+  "description": "Better brew install with support for installing specific versions",
+  "main": "index.js",
+  "bin": {
+    "brew-install": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giuseppeg/brew-install.git"
+  },
+  "keywords": [
+    "brew",
+    "homebrew",
+    "brew",
+    "install"
+  ],
+  "author": "Giuseppe Gurgone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giuseppeg/brew-install/issues"
+  },
+  "homepage": "https://github.com/giuseppeg/brew-install#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
